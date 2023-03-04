@@ -8,7 +8,7 @@ const About = () => {
         <div className='flex flex-col space-y-4'>
           <h2 className='text-5xl pb-2'>About me</h2>
           <p className='md:max-w-md'>I am passionate about transforming any web design into its equivalent web app.</p>
-          <p className='md:max-w-md text-white/70'>For the past 4 years I have been working with both personal and teams projects implementing different web technologies.</p>
+          <p className='md:max-w-md text-white/60'>For the past 4 years I have been working with both personal and teams projects implementing different web technologies.</p>
           <p className='text-green-400'>I am open to any web frontend job or internship offer</p>
         </div>
         <div className='flex flex-col space-y-4'>
