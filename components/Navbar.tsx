@@ -21,7 +21,7 @@ const Navbar = () => {
           <ul className='hidden md:flex flex-grow space-x-8  items-center justify-center h-full'>
             <li className='active'><Link href='/'>Home</Link></li>
             <li><Link href='/about'>About</Link></li>
-            <li><Link href='/'>Projects</Link></li>
+            <li><Link href='/projects'>Projects</Link></li>
             <li><Link href='/'>Testimonials</Link></li>
             <li><Link href='/'>Contact Me</Link></li>
           </ul>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <ul className='flex flex-col space-y-8'>
                     <li onClick={handleToggle}><Link className='text-4xl' href='/'>Home</Link></li>
                     <li onClick={handleToggle}><Link className='text-4xl' href='/about'>About</Link></li>
-                    <li onClick={handleToggle}><Link className='text-4xl ' href='/work'>Projects</Link></li>
+                    <li onClick={handleToggle}><Link className='text-4xl ' href='/projects'>Projects</Link></li>
                     <li onClick={handleToggle}><Link className='text-4xl ' href='/contact'>Testimonials</Link></li>
                     <li onClick={handleToggle}><Link className='text-4xl ' href='/contact'>Contact Me</Link></li>
                 </ul>
