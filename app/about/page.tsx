@@ -15,10 +15,10 @@ const About = () => {
           <h5 className='text-4xl pb-2'>My Web Stack</h5>
           <div className='flex items-center flex-wrap gap-4 md:max-w-[400px]'>
             <div><Image src='/techs/react.png' alt='react' height={50} width={50}/></div>
-            <div><Image src='/techs/typescript.png' alt='next' height={50} width={50}/></div>
+            <div className='bg-white rounded-full'><Image src='/techs/nextjs.png' alt='next' height={50} width={50}/></div>
             <div><Image src='/techs/javascript.png' alt='javascript' height={50} width={50}/></div>
             <div><Image src='/techs/typescript.png' alt='typescript' height={50} width={50}/></div>
-            <div><Image src='/techs/python.png' alt='tailwindcss' height={50} width={50}/></div>
+            <div className='bg-white rounded-full h-[50px] w-[50px] flex items-center justify-center'><Image src='/techs/tailwindcss.png' alt='tailwindcss' height={50} width={50}/></div>
 
             <div><Image src='/techs/python.png' alt='python' height={50} width={50}/></div>
             <div><Image src='/techs/figma.png' alt='figma' height={50} width={50}/></div>
