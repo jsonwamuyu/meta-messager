@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image';
-import { BsFacebook, BsGithub, BsLinkedin, BsMessenger, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 import Link from 'next/link';
-import {FiMessageCircle} from 'react-icons/fi'
+
 
 const ContactMe = () => {
   return (

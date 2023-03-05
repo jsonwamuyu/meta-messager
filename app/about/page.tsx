@@ -12,7 +12,7 @@ const About = () => {
           <p className='text-green-400'>I am open to any web frontend job or internship offer</p>
         </div>
         <div className='flex flex-col space-y-4'>
-          <h5 className='text-4xl pb-2'>My Web Stack</h5>
+          <h5 className='text-4xl pb-2'>My Tech Stack</h5>
           <div className='flex items-center flex-wrap gap-4 md:max-w-[400px]'>
             <div><Image src='/techs/react.png' alt='react' height={50} width={50}/></div>
             <div className='bg-white rounded-full'><Image src='/techs/nextjs.png' alt='next' height={50} width={50}/></div>

@@ -1,6 +1,7 @@
 'use client';
 import {useState} from 'react'
 import Link from 'next/link'
+import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 import {HiMenu, HiX} from 'react-icons/hi'
 
@@ -25,6 +26,15 @@ const Navbar = () => {
             <li><Link href='/'>Testimonials</Link></li>
             <li><Link href='/contact'>Contact Me</Link></li>
           </ul>
+
+        {/* Social icons */}
+          <div className='hidden md:flex gap-4 items-center'>
+              <Link href="https://www.linkedin.com/in/johnson-muchiri-18b48a233/"><BsLinkedin size={16}/></Link>
+              <Link href="https://twitter.com/muchiri_jyson"><BsTwitter size={16}/></Link>
+              <Link href=""><BsFacebook size={16}/></Link>
+              <Link href="https://github.com/jsonwamuyu"><BsGithub size={16}/></Link>
+            </div>
+
           <div className='md:hidden h-full ease-in duration-300' onClick={handleToggle}>
             {toggle ? <HiX size={33} className="cursor-pointer"/> : <HiMenu size={33} className="cursor-pointer"/>
             }
