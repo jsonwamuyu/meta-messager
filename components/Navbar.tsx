@@ -23,7 +23,7 @@ const Navbar = () => {
             <li><Link href='/about'>About</Link></li>
             <li><Link href='/projects'>Projects</Link></li>
             <li><Link href='/'>Testimonials</Link></li>
-            <li><Link href='/'>Contact Me</Link></li>
+            <li><Link href='/contact'>Contact Me</Link></li>
           </ul>
           <div className='md:hidden h-full ease-in duration-300' onClick={handleToggle}>
             {toggle ? <HiX size={33} className="cursor-pointer"/> : <HiMenu size={33} className="cursor-pointer"/>
