@@ -10,11 +10,11 @@ const Footer = () => {
             </div>
             <div>
             <ul className='flex  space-x-2  items-center justify-center flex-wrap'>
-                <li><Link href='/'  className='text-white/50 text-[14px]'>Home</Link></li>
-                <li><Link href='/about'  className='text-white/50 text-[14px]'>About</Link></li>
-                <li><Link href='/projects'  className='text-white/50 text-[14px]'>Projects</Link></li>
-                <li><Link href='/'  className='text-white/50 text-[14px]'>Testimonials</Link></li>
-                <li><Link href='/contact'  className='text-white/50 text-[14px]'>Contact Me</Link></li>
+                <li><Link href='/'  className='text-white/50 text-[14px] hover:text-white'>Home</Link></li>
+                <li><Link href='/about'  className='text-white/50 text-[14px] hover:text-white'>About</Link></li>
+                <li><Link href='/projects'  className='text-white/50 text-[14px] hover:text-white'>Projects</Link></li>
+                <li><Link href='/'  className='text-white/50 text-[14px] hover:text-white'>Testimonials</Link></li>
+                <li><Link href='/contact'  className='text-white/50 text-[14px] hover:text-white'>Contact Me</Link></li>
             </ul>
             </div>
         </div>

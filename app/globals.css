@@ -33,8 +33,9 @@ body {
 
 a{
   font-size: 1.1rem;
+  opacity:0.8;
 }
-a:hover{opacity: 0.8;}
+a:hover{opacity: 0.7;}
 
 .active{
   color:#4ADE80;

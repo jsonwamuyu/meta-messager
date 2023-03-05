@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <nav className='w-full z-10 shadow-sm bg-[#111]'>
-        <div className='h-full flex items-center justify-between max-w-[1240px] m-auto p-6'>
+        <div className='h-full flex items-center justify-between max-w-[1240px] m-auto p-4'>
           <div>
-            <h1 className='text-4xl text-green-400'>JM.</h1>
+            <Link href="/"> <h1 className='text-4xl text-green-400'>JM.</h1> </Link>
           </div>
           <ul className='hidden md:flex flex-grow space-x-8  items-center justify-center h-full'>
             <li className='active'><Link href='/'>Home</Link></li>
